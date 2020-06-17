@@ -14,14 +14,11 @@ Which towns are closest to the biggest mexican cities?
 Which towns offer good quality accommodation? To answer this question we asses the availability, quantity, quality and types of hotels.
 Which towns offer enough interest points that make visiting worthwhile?                         
 
-# Limitations 
-**Technical: Api performance showed deficiencies (ie. concurrency problem)                                                   
-**Assumptions used in correlation analysis: The metric “the number of hotels in town” is limited as a proxy of the level 
-of touristic activity by the the fact that: Some towns are just one day visiting worthwhile (no more to see than 1 landmark, 
-usually city center) or close enough to major cities.
-
 # Dependencies and Setup
-Matplotlib.pyplot, pandas, scipy.stats, numpy, linregress
+* For managing the calls to the APIs: time, requests, from requests.exceptions - HTTPError, pprint (pretty json) 
+* For reading csv files: os, csv
+* For dataframes and lists: pandas, numpy
+* For figures and maps:  matplotlib.pyplot, from scipy.stats - linregress, from matplotlib.pyplot - figure, googlemaps and gmaps 
 
 # Resources
 list of Magic Towns in Mexico.- https://www.gob.mx/sectur/articulos/pueblos-magicos-206528
@@ -33,5 +30,6 @@ Distance to major cities.-  Distance Matrix Api   https://console.cloud.google.c
 
 # Findings about Hoteles.com API by RapidAPI
 ** The API manage the errors internally. Even when there's an error the status could be 200 OK. 
+![error_status200](https://user-images.githubusercontent.com/64176733/84956024-38fa9b00-b0ad-11ea-9e26-13662a21e23a.jpg)
 
-
+** Api performance showed possible consurrency problems. 
