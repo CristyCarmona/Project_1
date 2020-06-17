@@ -31,6 +31,8 @@ Distance to major cities.-  Distance Matrix Api   https://console.cloud.google.c
 *The API manage the errors internally. Even when there's an error the status could be 200 OK. 
 ![error_status200](https://user-images.githubusercontent.com/64176733/84956024-38fa9b00-b0ad-11ea-9e26-13662a21e23a.jpg)
 
-*Api performance showed possible concurrency problems. In some cases until the 3rd try was possible to get the results. Like in teh next case: 
+*Api performance showed possible concurrency problems. In some cases until the 3rd try was possible to get the results. Like in the next case: 
+![concurrency](https://user-images.githubusercontent.com/64176733/84957864-fd61d000-b0b0-11ea-8c97-5ceab39c4cf3.jpg)
+
 
 
