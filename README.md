@@ -1,7 +1,6 @@
 # Project_1
 
-# Title:
-Magic Towns in Mexico 
+# Title: Magic Towns in Mexico 
 
 # Description:
 Magic Towns designation has been one of the most important initiatives to promote tourism in Mexico. Tourism is the 3rd 
