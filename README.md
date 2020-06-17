@@ -27,7 +27,7 @@ Nearby Commercial Airports.- Places API https://console.cloud.google.com/
 Accommodation information.- Hoteles.com API by RapidAPI   https://hotels4.p.rapidapi.com/                                        
 Distance to major cities.-  Distance Matrix Api   https://console.cloud.google.com
 
-## Findings about Hoteles.com API by RapidAPI to be considered. 
+## Findings about Hoteles.com API to be considered. 
 *The API manage the errors internally. Even when there's an error the status could be 200 OK. 
 ![error_status200](https://user-images.githubusercontent.com/64176733/84956024-38fa9b00-b0ad-11ea-9e26-13662a21e23a.jpg)
 
